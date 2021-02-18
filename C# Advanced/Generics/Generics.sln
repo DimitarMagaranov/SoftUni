@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_GenericBoxOfString", "P01_GenericBoxOfString\P01_GenericBoxOfString.csproj", "{CC025EF2-1B83-47A6-804A-A19322A0F7D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuple", "Tuple\Tuple.csproj", "{604DA473-8BF0-448E-A042-E92C77D55C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{70800336-39BE-4E99-A498-0E2F88E96ABF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC025EF2-1B83-47A6-804A-A19322A0F7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC025EF2-1B83-47A6-804A-A19322A0F7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC025EF2-1B83-47A6-804A-A19322A0F7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC025EF2-1B83-47A6-804A-A19322A0F7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{604DA473-8BF0-448E-A042-E92C77D55C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{604DA473-8BF0-448E-A042-E92C77D55C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{604DA473-8BF0-448E-A042-E92C77D55C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{604DA473-8BF0-448E-A042-E92C77D55C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70800336-39BE-4E99-A498-0E2F88E96ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70800336-39BE-4E99-A498-0E2F88E96ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70800336-39BE-4E99-A498-0E2F88E96ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70800336-39BE-4E99-A498-0E2F88E96ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B30C508-A662-4813-91BC-97F759A89AE5}
+	EndGlobalSection
+EndGlobal
