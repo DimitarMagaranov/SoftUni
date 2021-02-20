@@ -35,6 +35,7 @@ class Parking {
 
         const index = this.vehicles.indexOf(car);
         this.vehicles.splice(index, 1);
+        this.capacity++;
         return `${carNumber} left the parking lot.`;
     }
 
@@ -49,7 +50,7 @@ class Parking {
             throw new Error(`${carNumber}` + "'s driver has already payed his ticket.");
         }
 
-        this.vehicles.find(x => x.carNumber === carNumber).payed = true;
+        car.payed = true;
         this.sortedVehicles.find(x => x.carNumber === carNumber).payed = true;
         return `${carNumber}` + "'s driver successfully payed for his stay.";
     }
