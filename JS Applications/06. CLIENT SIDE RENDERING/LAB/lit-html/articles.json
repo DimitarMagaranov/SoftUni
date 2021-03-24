@@ -1,0 +1,18 @@
+[
+    {
+        "title": "First Article",
+        "content": "First Content",
+        "author": "First Author"
+    },
+    {
+        "title": "Second Article",
+        "content": "Second Content",
+        "author": "Second Author"
+    },
+    {
+        "title": "Third Article",
+        "content": "Third Content",
+        "author": "Third Author"
+    }
+
+]

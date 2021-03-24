@@ -1,0 +1,10 @@
+body {
+    font-size: 24px;
+    margin: auto;
+}
+
+article {
+    margin: 32px;
+    box-shadow: 0px 0px 8px 8px #BFBFBF;
+    padding: 32px;
+}
