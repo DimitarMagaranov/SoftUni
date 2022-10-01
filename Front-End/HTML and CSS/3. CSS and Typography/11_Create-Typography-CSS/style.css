@@ -1,0 +1,57 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#article-2 {
+    margin-bottom: 40px;
+}
+#article-3 h1 {
+    margin-top: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+#square-type {
+    list-style-type: square;
+}
+#point-type {
+    list-style-type: disc;
+}
+#circle-type {
+    list-style-type: circle;
+}
+
+blockquote {
+    border-left: 3px solid rgb(221, 221, 221);
+    font-style: italic;
+    margin-left: 20px;
+    padding: 5px 25px;
+
+}
+blockquote p#author {
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    background-color: rgb(221, 221, 221);
+}
+th, td {
+    width: 32%;
+    text-align: left;
+    border: 2px solid rgb(221, 221, 221);
+    padding-left: 10px;
+}
+tr:nth-child(odd) {
+    background-color: rgb(241, 241, 241);
+}
+body {
+    margin:80px 60px;
+}
