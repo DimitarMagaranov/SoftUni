@@ -1,0 +1,35 @@
+article.static .tags {
+  position: static;  
+  top: 20px;
+  left: 20px;
+}
+
+article.relative .tags {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+article.absolute {
+  position: relative;
+}
+
+article.absolute .tags {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+}
+
+/*positioning awlays by the browser*/
+/*
+article.fixed .tags {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+} */
+
+article.sticky .tags {
+  position: sticky;
+  top: 50px;
+  left: 100px;
+}
