@@ -1,0 +1,39 @@
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+
+div.viewport {
+  height: 50vh;
+}
+
+div:first-child {
+  background-color: lightgreen;
+}
+div:first-child img {
+  width: 250px;
+}
+
+div:last-child {
+  background-color: rgba(255, 255, 255, 0);
+}
+div:last-child img {
+  width: 250px;
+}
+
+div {
+    position: relative;
+  }
+  
+  .card {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  i {
+    color: white;
+    position: absolute;
+    right: 6px;
+    bottom: 12px;
+  }
+  

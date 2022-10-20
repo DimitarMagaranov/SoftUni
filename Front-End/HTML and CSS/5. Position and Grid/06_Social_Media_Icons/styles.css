@@ -1,0 +1,43 @@
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+
+ul {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+a {
+    font-size: 25px;
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+i {
+    color: black;
+}
+
+i:hover {
+    color: var(--icon-color);
+}
+
+.facebook {
+    --icon-color: #3b5998;
+}
+.twitter {
+    --icon-color: #00acee;
+}
+.google {
+    --icon-color: #db4a39 ;
+}
+.linkedin {
+    --icon-color: #0e76a8;
+}
+.instagram {
+    --icon-color: rgb(81, 127, 164);
+}
