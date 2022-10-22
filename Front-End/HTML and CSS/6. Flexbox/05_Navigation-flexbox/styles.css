@@ -1,0 +1,25 @@
+body {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+.nav__item {
+    list-style-type: none;
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    gap: 24px;
+    margin-right: 12px;
+}

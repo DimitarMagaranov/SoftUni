@@ -1,0 +1,32 @@
+.image-list__item {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+}
+
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100vh;
+    gap: 25px;
+}
+
+.image-list .image-list__item {
+    border: 5px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+}
+
+img{
+    width: 90%;
+}
+

@@ -1,0 +1,44 @@
+html * {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 65vw;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+span {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.week {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 70%;
+}
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+
+
+.workweek, .weekend {
+    width: 100%;
+}
+.monday-friday {
+    width: 20%;
+}
+.saturday-sunday {
+    width: 50%;
+}
+.notes__item {
+    height: 50%;
+}
