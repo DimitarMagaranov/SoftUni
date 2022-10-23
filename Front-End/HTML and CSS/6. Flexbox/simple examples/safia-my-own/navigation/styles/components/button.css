@@ -1,29 +1,26 @@
 .btn {
     --btn-clr-bg: var(--clr-neutral-600);
     --btn-clr-text: var(--clr-white);
-    --btn-pr-clr-bg: var(--clr-primary-600);
-
+  
     border: none;
-    background-color: var(--clr-neutral-600);
-    color: var(--clr-white);
+    background-color: var(--btn-clr-bg);
+    color: var(--btn-clr-text);
     padding: 16px 24px;
     border-radius: 8px;
-    color: var(--clr-white);
     cursor: pointer;
     transition: all 300ms ease-in-out;
-}
-
-.btn:hover {
-    background-color: var(--btn-clr-text);
-    color: var(--btn-clr-bg);
-}
-
-.btn.btn--primary {
-    background-color: var(--btn-pr-clr-bg);
-    color: var(--btn-clr-text);
-}
-
-.btn.btn--primary:hover {
-    background-color: var(--btn-clr-text);
-    color: var(--btn-pr-clr-bg);
-}
+  }
+  .btn:hover {
+    --btn-clr-bg: var(--clr-white);
+    --btn-clr-text: var(--clr-neutral-600);
+  }
+  
+  .btn.btn--primary {
+    --btn-clr-bg: var(--clr-primary-600);
+    --btn-clr-text: var(--clr-white);
+  }
+  .btn.btn--primary:hover {
+    --btn-clr-bg: var(--clr-white);
+    --btn-clr-text: var(--clr-primary-600);
+  }
+  
