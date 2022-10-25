@@ -1,0 +1,9 @@
+@import './reset.css';
+@import './variables.css';
+@import './clients-section.css';
+
+
+body {
+    background-color: var(--clr-helper-3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
