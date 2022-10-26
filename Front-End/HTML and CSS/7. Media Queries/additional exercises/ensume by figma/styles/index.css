@@ -1,5 +1,7 @@
 @import './reset.css';
 @import './variables.css';
+@import './components/buttons.css';
+@import './hero-section.css';
 @import './clients-section.css';
 @import './business-section.css';
 

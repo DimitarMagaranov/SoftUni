@@ -37,18 +37,6 @@
   margin-bottom: 30px;
 }
 
-#business .content .content__btn {
-  color: var(--clr-white);
-  background-color: var(--clr-primary);
-  border: none;
-  box-shadow: 0px 12px 30px rgba(24, 92, 255, 0.18);
-  border-radius: 6px;
-  padding: 15px 30px;
-  width: 190px;
-  text-align: center;
-  cursor: pointer;
-}
-
 #business .row__img__wrapper {
   height: 590px;
   position: relative;
