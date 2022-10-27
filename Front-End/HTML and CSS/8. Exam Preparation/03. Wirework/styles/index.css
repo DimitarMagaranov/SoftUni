@@ -1,0 +1,31 @@
+@import './reset.css';
+@import './header.css';
+@import './hero-section.css';
+@import './features-section.css';
+@import './subscribe.css';
+@import './advantages.css';
+@import'./footer.css';
+
+:root {
+    --clr-primary: #e24e2a;
+    --clr-grey: #ececec;
+    --clr-grey-dark: #3f3f3f;
+    --clr-grey-text: #5d5954;
+    --clr-grey-bg: #383838;
+    --clr-green: #1b9772;
+    --clr-green-text: #5ab18e;
+    --clr-green-link: #a1d1bb;
+    --clr-white: #fff;
+
+    --header-height: 66px;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    color: var(--clr-grey-dark);
+}
+
+section.section--full {
+    padding: 6rem 4rem;
+
+}

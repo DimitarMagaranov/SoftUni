@@ -1,0 +1,52 @@
+@import './reset.css';
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+body {
+    font-family: Poppins;
+    color: grey;
+}
+h1, h2 {
+    font-family: Montserrat;
+    color: black;
+}
+
+.section {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.section .info .title {
+    margin-bottom: 30px;
+}
+
+.section .info,
+.section .picture {
+    width: 50%;
+}
+
+.features .feature {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.features .feature:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.features .feature .feature-icon {
+    width: 70px;
+}
+
+.section .desc:not(:last-child) {
+    margin-bottom: 10px;
+}
+.section .desc:last-of-type {
+    margin-bottom: 30px;
+}
