@@ -1,0 +1,24 @@
+{{calcScores(obj)}}
+<button (click)="addProp()">Add prop</button>
+
+{{username | lowercase| titlecase}}
+
+{{obj.scores | reduce: add}}
+
+<!-- {{myPromise | async}} -->
+
+{{username}}
+
+<div *ngIf="isLoadingUsers$ | async">Loading...</div>
+<div *ngIf="!(isLoadingUsers$ | async)">{{users$ | async | json}}</div>
+
+
+<button *ngIf="(users$ | async) === null" (click)="loadUsersHandler()">Load users</button>
+<button *ngIf="(users$ | async) !== null" (click)="loadUsersHandler()">Reload users</button>
+
+<nav> 
+    <a routerLink="/lazy">Lazy</a>
+    <a routerLink="/not-lazy">Not-Lazy</a>
+    <a routerLink="/">Home</a>
+</nav>
+<router-outlet></router-outlet>
