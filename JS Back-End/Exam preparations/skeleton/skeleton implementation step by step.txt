@@ -1,0 +1,31 @@
+1. npm init -y
+2. npm i -D nodemon
+3. create file server.js
+4. in package.json wi have to write script for starting the server - "start": "nodemon ./server.js"
+5. npm i express mongoose express-handlebars
+6. make folder config
+7. in config folder we make config.js
+8. Database setup:
+- open https://mongoosejs.com/docs/guide.html
+- make new file named mongoose.js in config folder and implement it's functionality and then wi have to require it in the server.js folder
+9. make folder controllers
+10. make file express.js in config folder and implement the functionality in it
+11. make folder views and 2 more folders (partials and layouts) in it
+12. make folder public. We can name it static if we want
+13. make folder models
+14. npm i cookie-parser
+15. make routes file
+16. make homeController
+16. make authController
+17. make folder middlewares
+18. make global error handler named errorHandler.js in middlewares folder
+19. make main layout main.hbs in layouts folder
+20. make separate folder home in views folder for homeController. Thats the way of grouping of the views
+21. add User model in models folder
+22. add register.hbs, login.hbs and etc in auth folder in views and implement actions in their controllers
+23. make folder services
+24. make authService.js for the logic of authController
+25. work over the errorHandler
+26. install express-validator for compare the passwords after submiting the register form. We can use several methods for validation if we want
+27. install jsonwebtoken
+28. install bcrypt for hashing the password
