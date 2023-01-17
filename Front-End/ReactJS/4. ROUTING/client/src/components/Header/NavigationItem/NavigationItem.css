@@ -1,0 +1,30 @@
+.navigation .list-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation .list-item {
+    display: inline-block;
+    height: auto;
+    width: 110px;
+    margin-right: 2%;
+    cursor: pointer;
+    padding: 0.5%;
+    margin: 0.1%;
+    vertical-align: top;
+}
+
+.navigation .list-item:first-child {
+    margin-right: auto;
+}
+
+.navigation .list-item:not(:first-child) {
+    padding: 1%;
+    margin-top: 0.5%;
+}
+
+.navigation .list-item:hover {
+    border-top: none;
+    border-bottom: 2px solid #ffa000;
+    font-weight: bold;
+}

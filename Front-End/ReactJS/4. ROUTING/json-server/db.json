@@ -1,0 +1,29 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit perferendis accusantium quaerat exercitationem accusamus culpa, blanditiis adipisci ab laudantium optio vitae nesciunt magnam aspernatur neque, mollitia eligendi impedit rem?",
+            "author": "Pesho"
+        },
+        {
+            "id": 2,
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit perferendis accusantium quaerat exercitationem accusamus culpa, blanditiis adipisci ab laudantium optio vitae nesciunt magnam aspernatur neque, mollitia eligendi impedit rem?",
+            "author": "Gosho"
+        },
+        {
+            "id": 3,
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit perferendis accusantium quaerat exercitationem accusamus culpa, blanditiis adipisci ab laudantium optio vitae nesciunt magnam aspernatur neque, mollitia eligendi impedit rem?",
+            "author": "Sasho"
+        },
+        {
+            "id": 4,
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit perferendis accusantium quaerat exercitationem accusamus culpa, blanditiis adipisci ab laudantium optio vitae nesciunt magnam aspernatur neque, mollitia eligendi impedit rem?",
+            "author": "Misho"
+        },
+        {
+            "id": 5,
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit perferendis accusantium quaerat exercitationem accusamus culpa, blanditiis adipisci ab laudantium optio vitae nesciunt magnam aspernatur neque, mollitia eligendi impedit rem?",
+            "author": "Dimo"
+        }
+    ]
+}
