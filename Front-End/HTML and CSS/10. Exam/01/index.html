@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Fitness Calculator</title>
+  </head>
+  <body>
+    <section id="fitness-calculator">
+      <div class="calc-ctn">
+        <img class="img" src="./image/calculator.png" alt="" />
+
+        <div class="calc">
+          <h1 class="title">FITNESS CALCULATOR</h1>
+          <div class="buttons">
+            <button class="btn standart">Standart units (US)</button>
+            <button class="btn metric">Metric units</button>
+          </div>
+          <div class="gender-ctn">
+            <h3 class="gender-title">Gender</h3>
+            <div class="gender-flex">
+              <select class="gender-options" name="">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="other">Other</option>
+              </select>
+              <input class="years-input" type="number" placeholder="Years..." />
+            </div>
+          </div>
+          <div class="weight-ctn">
+            <h3 class="weight-title">Weight</h3>
+            <input class="weight-input" type="number" placeholder="Pounds..." />
+          </div>
+          <div class="height-ctn">
+            <h3 class="height-title">Height</h3>
+            <div class="height-flex">
+              <input class="feet-input" type="number" placeholder="Feet..." />
+              <input class="inches-input" type="number" placeholder="Inches..." />
+            </div>
+          </div>
+          <button class="btn-calculate">Calculate</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+#coaches {
+    padding: 50px 100px;
+    background-color: rgb(239, 239, 239);
+}
+
+#coaches .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+#coaches .divider {
+    width: 45px;
+    background-color: rgb(208, 25, 25);
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+#coaches .coaches-ctn {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#coaches .coaches-ctn .coach {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#coaches .coaches-ctn .coach img {
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#coaches .coaches-ctn .coach .coach-name {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+#coaches .coaches-ctn .coach .coach-type {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: rgb(208, 25, 25);
+}
+
+#coaches .coaches-ctn .coach .coach-info {
+    font-size: 1.2rem;
+    width: 350px;
+    color: rgb(203, 203, 205);
+    text-align: center;
+
+}

@@ -1,0 +1,10 @@
+@import './reset.css';
+@import './coach-section.css';
+@import './welcome-section.css';
+@import './components/section.css';
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+html {
+    font-family: 'PT Sans', sans-serif;
+}
